@@ -1,0 +1,497 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass report
+\use_default_options true
+\maintain_unincluded_children false
+\language french
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format pdf5
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language french
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Méthodologie: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+
+\end_layout
+
+\end_inset
+
+Aide au développement et Dynamiques Sociales
+\end_layout
+
+\begin_layout Author
+Jean-Louis Arcand
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Directeur, Centre pour les Finances et du Développement
+\end_layout
+
+\end_inset
+
+
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Professeur d'économie internationale, The Graduate Intitute (IHEID), Genève
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Abstract
+Ce projet de recherche vise à étudier l'impact de l'aide au développement
+ social local sur la dynamique.
+ L'accent sera mis sur le programme de Développement de la base (Community
+ Driven Development, CDD) au Maroc, où les populations locales au niveau
+ du village décider de la forme que doit prendre l'intervention en question
+ (par exemple, un puits ou une école primaire).
+ Ces programmes représentent une composante très importante de financement
+ dans le développement monde et, dans le contexte africain, sont encore
+ mal compris.
+\end_layout
+
+\begin_layout Abstract
+L'aide au développement, et en particulier les programmes CDD, avoir une
+ dimension sociale importante (en termes de mobilisation des villages «traités»)
+, conduisant à l'importance de comprendre les dynamiques sociales: cela
+ peut être fait en utilisant le réseau récemment développé des outils tels
+ que régressions dyadiques et des expériences dans le domaine économique.
+ Bien que ce soit originale du point de vue scientifique, que les économistes
+ ne ont que récemment commencé à utiliser ces techniques, il ya un problème
+ politique important à portée de main qui, d'ailleurs, ne peut pas être
+ bien compris en utilisant des méthodes économétriques classiques: faire
+ des programmes sociaux mènent à plus ou moins polarisation des sociétés
+ villageoises?
+\end_layout
+
+\begin_layout Abstract
+Les données empiriques sur l'impact des programmes d'aide et de vigilance
+ sur le capital social est relativement rares, en particulier pour l'Afrique.
+ La plupart des études sur l'impact de la concentration de son aide sur
+ l'évaluation des résultats traditionnels, tels que le revenu des ménages
+ ou des indicateurs d'éducation ou de santé, au lieu de concentrer l'analyse
+ sur le capital social.
+ Voici étions nous identifions la connaissance espace et notre objectif
+ est de mettre en œuvre une méthodologie innovante pour compléter le «traditionn
+el évaluation de l'impact »avec la recherche sur l'effet de l'aide sur les
+ réseaux sociaux et le capital.
+\end_layout
+
+\begin_layout Abstract
+Avec une équipe de trois étudiants de doctorat, réseau d'origine et expérimental
+e données en Gambie et le Maroc seront recueillies et analysées sur une
+ période de trois ans.
+ À la fin de cette période, l'objectif est d'avoir produit et présenté une
+ série de articles scientifiques et ont apporté trois thèses de doctorat
+ à une conclusion réussie.
+ Un objectif connexe consiste ainsi à établir fermement le micro-économétrique
+ quantitative pouvoirs de la le nouveau programme de doctorat en développement
+ Institut universitaire et économie.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+État actuel de la recherche dans le domaine
+\end_layout
+
+\begin_layout Standard
+Cette proposition de subvention tourne donc autour de deux thèmes connexes:
+\end_layout
+
+\begin_layout Itemize
+Développement de la base (CDD) Expériences économiques dans le domaine pour
+ mesurer le capital social.
+\end_layout
+
+\begin_layout Itemize
+Nous présentons l'état de la recherche dans chacun de ces domaines, à leur
+ tour.
+\end_layout
+
+\begin_layout Section
+Développement de la base
+\end_layout
+
+\begin_layout Standard
+Toutes les évaluations d'impact considérés dans cette demande de subvention
+ correspondent à CDD des programmes.
+ CDD est très grandes entreprises: la seule année 2003, il représentait
+ 7 milliards de dollars des engagements de la Banque mondiale (Mansouri
+ et Rao, 2004).
+ Compte tenu de la magnitude absolue de programmes CDD, ainsi que leur part
+ très importante du développement l'assistance à l'échelle mondiale, et
+ étant donné qu'il est peu probable que leur importance diminuera dans un
+ avenir proche, il est d'un intérêt considérable de savoir si, et comment,
+ ils travaillent.
+\end_layout
+
+\begin_layout Standard
+Il ya une controverse grandissante entourant programmes CDD, stimulée par
+ la présomption qu'ils ne sont pas aussi «de bas en haut», comme ils sont
+ censés être.
+ En effet, les critiques de CDD, que ainsi que des approches similaires
+ «participative», affirment qu'ils ne sont pas axé sur la communauté ou
+ à base du tout, et qu'ils fournissent essentiellement un voile à peine
+ voilée derrière lequel les élites locales ou des entrepreneurs de développement
+ opportunistes détournent des ressources qui ne atteignent jamais leurs
+ destinataires (Platteau et Gaspart, 2003).
+ La "capture par l'élite" vue Opérations CDD a également été associée à
+ la critique qu'aucune évaluations existantes de Les programmes CDD permettent
+ d'identifier tout gain important pour leur élément participatif, par rapport
+ à des solutions de rechange, top-down "standard" (Mansouri et Rao, 2004).
+ Wassenich et Whiteside (2003) et Rawlings, Sherburne-Benz, et Van Domelen
+ (2004) fournissent évaluations des pratiques actuelles de la Banque mondiale
+ en termes d'évaluation des programmes CDD d'impact.
+\end_layout
+
+\begin_layout Standard
+Cette proposition de subvention contribuera à un nombre croissant de littérature
+ traitant décentralisée développement, si nous nous concentrons sur l'impact
+ sur le bien-être des bénéficiaires que peut être directement attribuée
+ à un programme CDD, plutôt que sur les aspects politiques de l'économie.
+ Principales références dans cette littérature comprennent des travaux par
+ Bardhan et Mookherjee (2000, 2005, 2006a, 2006b), Foster et Rosenzweig
+ (2004), Besley et Burgess (2001, 2002), et Besley et Coate (2003).
+ Contrairement à ce corpus de travail, qui est essentiellement inspirée
+ par l'expérience indienne, les programmes sociaux pris en compte dans cette
+ proposition de subvention fournir des preuves microéconométrique dans un
+ contexte africain en utilisant de nouvelles mesures de résultats.
+\end_layout
+
+\begin_layout Section
+Expériences économiques pour mesurer le capital social
+\end_layout
+
+\begin_layout Standard
+Expériences économiques ont été récemment utilisé dans le travail de terrain
+ pour compléter traditionnelle enquêtes auprès des ménages (voir Tanaka,
+ Camerer, et Nguyen (2010), pour une enquête voir Cardenas et Carpenter
+ (2008).
+ En particulier, le jeu de la confiance et le bon jeu publique ont été pris
+ des mesures convenables de capital social dans une communauté (voir par
+ exemple Karlan (2005) et Barr (2003)).
+ Néanmoins, très peu d'études ont utilisé ces jeux dans la recherche sur
+ les interventions d'aide et le capital social.
+ L'une des exceptions est Attanasio, Pellerano, et Reyes (2009), qui utilisent
+ le jeu de biens publics pour étudier l'impact dans le domaine social capitale
+ d'un programme de transferts monétaires conditionnels dans les quartiers
+ de Cartagena (Colombie).
+ Nous nous concentrons sur la mesure quatre facettes de capital social susceptib
+les d'être liés à les impacts et les mécanismes des interventions.
+ Les jeux sont basés sur bien établis protocoles dans le littérature1 et
+ sont décrits dans la section des méthodes ci-dessous.
+\end_layout
+
+\begin_layout Itemize
+L'altruisme peut avoir des effets bénéfiques sur le développement économique
+ et la cohésion sociale dans un village.
+\end_layout
+
+\begin_layout Itemize
+Volonté de contribuer à une communauté ou groupe peut être l'un de l'immeuble
+ blocs d'un développement local efficace et durable.
+\end_layout
+
+\begin_layout Itemize
+La confiance et la fiabilité dans les communautés et les groupes sont au
+ cœur du développement économique interactions dans les villages.
+ L'aide peut favoriser et aggraver la confiance et la fiabilité en raison
+ à la création de nouveaux groupes, les liens sociaux et la réussite économique
+ de collaboration.
+\end_layout
+
+\begin_layout Chapter
+Plan de recherche détaillé
+\end_layout
+
+\begin_layout Section
+Objectifs et buts
+\end_layout
+
+\begin_layout Standard
+L'objectif de cette proposition de recherce est de mieux comprendre la dynamique
+ sociale de la vie du village à travers l'application de techniques de régressio
+n dyadiques et des expériences économiques, et de voir comment la dynamique
+ sociale changent à la suite d'un traitement par un programme CDD.
+\end_layout
+
+\begin_layout Standard
+À la fin de la période de trois ans, l'objectif est d'avoir produit et soumis
+ une série d'articles scientifiques.
+\end_layout
+
+\begin_layout Section
+Méthodes d'investigation: Stratégie d'identification
+\end_layout
+
+\begin_layout Standard
+Un des points forts de cette proposition sont, stratégie d'identification
+ de causalité tranchant qui nous permet d'établir un bon contrefactuel,
+ discontinuité de la régression Design (RDD)
+\end_layout
+
+\begin_layout Standard
+Une faiblesse majeure des évaluations d'impact traditionnelles des programmes
+ de développement, ce est qu'ils limitent généralement leur attention sur
+ les effets de causalité moyenne.
+ Bien que cela fournit à la fois le chercheur et, finalement, les décideurs,
+ avec une estimation de l'impact moyen du programme en cours d'évaluation
+ sur les variables de réponse d'intérêt, il ne est pas difficile d'imaginer
+ cette réponse étant hétérogène.
+ Une autre façon de mettre ce est qu'il est difficile de croire que tous
+ les individus, les ménages ou les villages bénéficient de la même quantité
+ d'un programme social donné.
+\end_layout
+
+\begin_layout Standard
+Compte de l'hétérogénéité des effets de traitement a fait l'objet d'un important
+ corpus de travail dans la littérature des effets de causalité.
+ Dans la littérature traitant des microéconométrie de l'évaluation des programme
+s, l'interaction de l'hétérogénéité et de l'auto-sélection a récemment été
+ surnommé hétérogénéité essentielle par Heckman, Urzua et Vytlacil (2006).
+ L'existence de l'hétérogénéité essentielle implique que l'effet du traitement
+ peut varier selon les individus, les ménages ou des villages, même après
+ conditionnement sur les caractéristiques observables.
+ Cette forme de l'hétérogénéité est différente de celle adressée par des
+ techniques de régression quantile, qui découle de la variable de résultat.
+\end_layout
+
+\begin_layout Subsection
+Les expériences économiques
+\end_layout
+
+\begin_layout Standard
+Nous prévoyons de jouer une série de jeux bien établies de la littérature
+ expérimentale (voir Glaeser, Laibson, Scheinkman et Soutter (2000), Henrich,
+ Boyd, Bowles, Camerer, Fehr, et Gintis (2004), Karlan (2005 ), Schechter
+ (2007), Gilligan, Pasquale, et Sami (2010)).
+ Ces jeux ont été testés sur le terrain avec succès dans 44 villages cambodgiens
+ dans le cadre d'une évaluation d'impact en cours d'un programme CDD par
+ Matthias Rieger en collaboration avec Michael Gilligan de NYU et Radu Ban
+ de la Fondation Gates.
+\end_layout
+
+\begin_layout Standard
+Le jeu du dictateur capte l'altruisme d'un sujet.
+ Les participants reçoivent une petite somme d'argent, et ils peuvent décider
+ combien de garder pour eux-mêmes, et combien ils aimeraient donner à une
+ famille dans le besoin dans leur communauté.
+ Le jeu de biens publics sera utilisée pour mesurer la «volonté de contribuer
+ à la communauté.» Dans ce jeux participants doivent décider se ils veulent
+ contribuer à un bien public ou free-ride sur la communauté.
+ Le choix est anonyme et la finale, rémunération personnelle dépend du comportem
+ent de l'ensemble du groupe.
+ Le jeu de la confiance est utilisé pour quantifier la confiance et la fiabilité
+ sein d'une communauté.
+ Deux participants du groupe sont adaptés de façon anonyme dans un jeu d'investi
+ssement.
+ Chaque participant est choisi au hasard pour jouer le rôle de l'investisseur
+ ou du récepteur.
+ Les deux joueurs commencent avec une dotation égale.
+ L'investisseur peut envoyer de l'argent au récepteur et le montant envoyé,
+ se triplé et est alors disponible pour le récepteur.
+ Ce dernier peut décider combien de renvoyer.
+ Notre mesure de confiance et de fiabilité, respectivement sont le montant
+ envoyé et retourné.
+ Préférences de risque sont une variable de commande important dans l'étude
+ du capital social.
+ Pour cette raison, nous utilisons une des expériences qui mesurent la prise
+ de risque par les loteries confronter sujets avec différents risques.
+ Nous mesurons les temps préférences des sujets.
+ Ce est une variable de contrôle important ainsi que variable de résultat.
+ Le sujet doit choisir entre une somme d'argent aujourd'hui et une série
+ de plus grande revient la semaine prochaine.
+\end_layout
+
+\begin_layout Standard
+En outre, comme le niveau de compréhension des règles des activités des
+ participants est susceptible d'influencer leur comportement, il est important
+ de mesurer et de contrôle pour les compétences cognitives des participants.
+ Cela sera fait en demandant à chaque participant individuellement à remplir
+ un bref série d'exercices de raisonnement (comme repérer un motif géométrique,
+ un compte à rebours, etc.).
+\end_layout
+
+\begin_layout Standard
+Enfin, outre les expériences standards, une tendance récente est l'adaptation
+ ou la création de nouveaux jeux qui permettent au chercheur d'étudier des
+ aspects spécifiques d'une communauté ou d'un projet.
+ Notre objectif est de générer un jeu de mieux comprendre les aspects importants
+ du projet, comme le processus de prise de décision pour sélectionner dans
+ les différentes options, la présence éventuelle de "capture d'élite" (une
+ grande préoccupation dans la littérature CDD) et la façon dont le projet
+ sera mis en œuvre.
+ L'idée de base est de reproduire un processus similaire à celui mis en
+ oeuvre pour sélectionner le véritable CDDP, et à jouer une version Modifier
+ du jeu biens publics, étaient les joueurs ont à choisir entre un menu d'options
+, y compris garder l'argent pour eux-mêmes.
+ Le match sera joué dans différents échantillons de villageois, d'analyser
+ si la présence de certains personnes importantes, comme le chef du village,
+ ses parents et ses aides, les chefs religieux et les autres est déterminant
+ dans le projet choisi.
+ Nous visons également à comprendre les questions de genre, que de voir
+ l'influence réelle des femmes dans la sélection d'un projet.
+\end_layout
+
+\begin_layout Standard
+Afin d'inciter les gens à révéler leurs véritables préférences, nous calibrons
+ les quotidiens de la rémunération moyens aux villageois à un peu plus d'un
+ salaire journalier.
+ Les jeux de comportement sont mises en œuvre dans un sous-ensemble de villages
+ qui font partie des enquêtes auprès des ménages à grande échelle qui ont
+ déjà été recueillies.
+ Les données sur les ménages riches peuvent être jumelés avec les données
+ de jeux de comportement
+\end_layout
+
+\begin_layout Section
+Les données disponibles et les données à collecter
+\end_layout
+
+\begin_layout Standard
+Les données de panel des ménages qui ont déjà été recueillies pour le Maroc
+ constituent la base de cette recherche.
+ Ce projet de recherche vise à se appuyer sur ces données en recueillant
+ des données de réseau et de jeux de comportement supplémentaires au Maroc
+ après les interventions CDD respectifs avec un petit sous-ensemble des
+ ménages qui ont été interviewés dans ces deux enquêtes.
+ D'où la collecte de données prévu dans cette proposition de subvention
+ est relativement léger.
+ La majeure partie du travail consiste à l'analyse des données existantes
+ afin de déterminer l'impact de l'aide sur les dynamiques sociales.
+ Dans ce qui suit, nous décrivons brièvement les deux interventions CDD
+ qui seront étudiés par ce projet et des détails sur le travail de terrain.
+\end_layout
+
+\begin_layout Standard
+L'Initiative Nationale de Développement Humain est l'un des plus importants
+ programmes de CDD du monde, impliquant débours total de 1 milliard de dollars
+ sur une période de quatre années.
+ Il a également été désigné comme l'un des principaux efforts du règne du
+ roi Mohamed VI.
+ Pour l'échantillon rural, la méthodologie de cette évaluation d'impact
+ est une conception de discontinuité de la régression, sur la base du taux
+ de pauvreté au niveau de la communauté rurale de la carte de la pauvreté
+ marocaine 2004 (pour un total de 110 communautés rurales).
+ Pour l'échantillon urbain, un score de propension approche de sélection
+ de traités et les quartiers de contrôle, basé sur un roman pauvreté du
+ quartier exercice de cartographie pour le Maroc urbain a été choisi, ce
+ qui donne un total de 120 quartiers traités et de contrôle correspondant.
+ Les enquêtes de référence ont été achevés en Février 2008.
+ Une enquête de suivi a été fait à l'été 2011.
+ Cette proposition demande un financement pour recueillir des données de
+ réseau et de jeux de comportement dans 50 communautés rurales, en exploitant
+ la conception RDD pour mesurer l'impact de l'aide sur les dynamiques sociales.
+\end_layout
+
+\begin_layout Standard
+La recherche prévue est importante pour la communauté scientifique pour
+ plusieurs raisons:
+\end_layout
+
+\begin_layout Itemize
+Il fournira une vue d'ensemble de l'impact des programmes de développement
+ communautaire en Afrique, une zone géographique pour laquelle les données
+ empiriques est extrêmement rare.
+\end_layout
+
+\begin_layout Itemize
+Il va générer un savoir-faire sur l'évaluation des programmes sociaux en
+ Suisse, et potentiellement stimuler un débat quant à savoir si les projets
+ d'aide suisse dans le domaine devrait également être systématiquement évalués
+ en utilisant l'état des techniques de l'art (actuellement, ils sont non).
+\end_layout
+
+\end_body
+\end_document
